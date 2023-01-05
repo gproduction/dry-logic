@@ -5,7 +5,7 @@ module Dry
     class RuleCompiler
       attr_reader :predicates
 
-      def initialize(predicates)
+      def initialize(predicates = Predicates)
         @predicates = predicates
       end
 
